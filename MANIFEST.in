@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eshopapp *.css
+recursive-include eshopapp *.csv
+recursive-include eshopapp *.html
+recursive-include eshopapp *.ico
+recursive-include eshopapp *.js
+recursive-include eshopapp *.json
+recursive-include eshopapp *.md
+recursive-include eshopapp *.png
+recursive-include eshopapp *.py
+recursive-include eshopapp *.svg
+recursive-include eshopapp *.txt
+recursive-exclude eshopapp *.pyc
